@@ -1,1 +1,44 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="temp.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Temperature Converter</h1>
+    <p>Convert Celsius, Fahrenheit, and Kelvin seamlessly.</p>
+  </header>
+
+  <main class="main">
+    <section class="converter">
+      <h2>Select Conversion</h2>
+      <form id="convert-form">
+        <label for="conversion-type">Conversion Type:</label>
+        <select id="conversion-type" required>
+          <option value="c-to-f">Celsius to Fahrenheit</option>
+          <option value="f-to-c">Fahrenheit to Celsius</option>
+          <option value="c-to-k">Celsius to Kelvin</option>
+          <option value="k-to-c">Kelvin to Celsius</option>
+        </select>
+
+        <label for="input-temp">Enter Temperature:</label>
+        <input type="number" id="input-temp" placeholder="e.g., 25" required>
+
+        <button type="submit">Convert</button>
+      </form>
+      <div id="result" class="result">Result: --</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Temperature Converter Tool</p>
+  </footer>
+
+  <script src="temp.js"></script>
+</body>
+</html>
+
