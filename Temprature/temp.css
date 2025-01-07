@@ -1,0 +1,82 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .converter {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .converter h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .result {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007BFF;
+    margin-top: 10px;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
